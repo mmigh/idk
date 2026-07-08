@@ -100,7 +100,7 @@ end)
 -- ==========================================
 -- 5. TỐI ƯU CHO MÁY YẾU / KHÓA FPS
 -- ==========================================
-local targetFPS = 30
+local targetFPS = 60
 local lastTime = tick()
 RunService.RenderStepped:Connect(function()
     local currentTime = tick()
