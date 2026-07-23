@@ -75,7 +75,7 @@ pcall(function()
     
     -- Kích hoạt chế độ Low CPU (Giảm tải vi xử lý)
     settings().Rendering.QualityLevel = Enum.QualityLevel.Level01
-    setfpscap(30) -- Giới hạn FPS ở mức 30 để máy không bị nóng/quá tải CPU
+    setfpscap(10) -- Giới hạn FPS ở mức 30 để máy không bị nóng/quá tải CPU
 end)
 
 -- ====================================================================
